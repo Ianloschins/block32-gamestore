@@ -26,5 +26,5 @@ app.get('/', (req, res) => {
 app.use('/api', require('./api'));
 
 app.listen(PORT, () => {
-    console.log(`Server listening on port ${PORT}`);
+    console.log(`http://localhost:${PORT}`);
 });
